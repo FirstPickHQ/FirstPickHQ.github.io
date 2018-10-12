@@ -10,19 +10,19 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="http://firstpick.io/"/>
   <!-- Stylesheets -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css"
   rel="stylesheet" type="text/css"/>
-  <script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="/javascripts/general.js"></script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div class="container">
       <!-- Left side of nav-bar -->
       <div class="navbar-brand">
-        <a class="navbar-item is-size-4 has-text-weight-semibold has-text-white" href="index.html">
+        <a class="navbar-item is-size-4 has-text-weight-semibold" href="index.html">
           First Pick
         </a>
         <!-- Navbar burger -->
@@ -34,7 +34,7 @@
       </div>
       <div class="navbar-menu" id="navMenu">
         <!-- Right side of Navbar -->
-        <div class="navbar-end is-size-5">
+        <div class="navbar-end is-size-6">
           <a class="navbar-item" href="employers.html">
             Employers
           </a>
@@ -48,24 +48,51 @@
       </div>
     </div>
   </nav>
-  <!-- Title banner -->
-  <section class="hero has-text-centered is-dark">
+
+  <!-- Title hero with picture -->
+  <section class="hero is-hidden-mobile">
+    <div class="hero-body" style="padding-top: 0rem;">
+      <div class="container">
+        <nav class="columns is-vcentered is-link" style="background: rgb(50, 115, 220);">
+          <div class="column has-text-centered is-6" style="padding-left: 2.2rem; padding-right: 2.2rem;">
+            <p class="title is-1 has-text-white">
+              Get matched with exclusive searches
+            </p>
+            <p class="subtitle is-4 has-text-white">
+              Access new roles from great employers and grow your business
+            </p>
+            <a class="button is-dark is-medium has-text-weight-semibold">
+              Register Interest
+            </a>
+          </div>
+          <div class="column is-hidden-mobile is-paddingless">
+            <figure class="image is-1by1">
+              <img src="/images/recruiter_title.jpg"/>
+            </figure>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- Title hero without picture (mobile only) -->
+  <section class="hero has-text-centered is-link is-hidden-tablet">
     <div class="hero-body">
       <div class="columns">
         <div class="column is-10 is-offset-1">
           <p class="title is-1">
-            We do the Business Development for you
+            Get matched with exclusive searches
           </p>
           <p class="subtitle is-3 has-text-white">
-            Access roles from great employers and grow your business
+            Access new roles from great employers and grow your business
           </p>
-          <a class="button is-info is-medium has-text-weight-semibold" style="margin-top: 1rem;">
+          <a class="button is-dark is-medium has-text-weight-semibold" style="margin-top: 1rem;">
             Register Interest
           </a>
         </div>
       </div>
     </div>
   </section>
+
   <!-- What is it like to be a headhunter on First Pick? -->
   <section class="hero">
     <div class="hero-body">
@@ -75,84 +102,153 @@
         </p>
       </div>
       <div class="container">
-        <div class="tile is-ancestor is-centered">
-          <div class="tile is-parent is-2">
+        <nav class="columns is-centered is-vcentered">
+          <div class="column is-6">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box">
+                <p class="title is-4">1. Find rewarding searches </p>
+                <p class="subtitle is-6">
+                  First Pick is a great place to find more clients who are
+                  actively looking to engage a headhunter.
+                </p>
+              </article>
+              <article class="tile is-child box">
+                <p class="title is-4">2. Bid for exclusive work 🙋‍</p>
+                <p class="subtitle is-6">
+                  Submit a proposal detailing your suitability for the search,
+                  including the fixed fee you'd charge to fill the vacancy.
+                </p>
+              </article>
+              <article class="tile is-child box" style="background: hsl(217, 71%, 53%);">
+                <p class="title is-4 has-text-white">3. Let the headhunting begin!</p>
+                <p class="subtitle is-6 has-text-white">
+                  If the client selects your bid, we'll share their contact
+                  details so you can start the search.
+                </p>
+              </article>
+              <article class="tile is-child box">
+                <p class="title is-4">4. Get paid 💰</p>
+                <p class="subtitle is-6">
+                  If you fill the vacancy, the client pays the fixed fee agreed
+                  in your proposal. We'll handle the invoicing.
+                </p>
+              </article>
+            </div>
           </div>
-          <div class="tile is-parent is-2 is-hidden-touch">
-            <article class="tile is-child has-text-centered box" style="background: hsl(171, 100%, 41%);">
-              <p class="is-size-1 has-text-weight-bold has-text-white">
-                1
-              </p>
-            </article>
+          <div class="column is-4 is-hidden-mobile">
+            <div class="card" style="border-radius: 15px;">
+              <!-- Card image -->
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="/images/recruiter3.jpeg" alt="Headshot of recruitment agent" style="border-radius: 15px 15px 0px 0px;"/>
+                </figure>
+              </div>
+              <!-- Rest of card -->
+              <div class="card-content">
+                <!-- Name and description -->
+                <div class="content has-text-centered is-small">
+                  <p class="title is-4">
+                    Daniel Carter
+                  </p>
+                  <p class="subtitle is-6">
+                    Risk and marketing analytics headhunter working with
+                    London FinTech start-ups.
+                  </p>
+                </div>
+                <!-- Client rating box -->
+                <div class="box has-text-centered" style="padding:0.7rem; margin-bottom: 1rem;">
+                  <p>
+                    <strong>85%</strong>
+                    Client Rating
+                  </p>
+                </div>
+                <!-- Placement success box -->
+                <div class="box has-text-centered" style="padding:0.7rem;">
+                  <p>
+                    <strong>90%</strong>
+                    Placement Success
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="tile is-parent is-6">
-            <article class="tile is-child">
-              <p class="title">Browse new jobs</p>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- FAQs -->
+  <section class="hero is-dark">
+    <div class="hero-body">
+      <div class="container">
+        <div class="container has-text-centered">
+          <p class="title is-2" style="margin-bottom: 3rem;">
+            FAQs
+          </p>
+        </div>
+        <!-- Questions 1-2 -->
+        <div class="columns">
+          <div class="column is-5 is-offset-1" style="padding: 1.1rem;">
+            <div class="content">
+              <h3 class="has-text-weight-semibold has-text-white">
+                What is First Pick?
+              </h3>
               <p>
-                Review roles from employers who are actively looking to engage a
-                headhunter.
+                First Pick is an online marketplace which connects employers
+                with the best headhunters. We offer you access to new clients
+                and each search is on an exclusive basis. Our aim is to build a
+                platform which benefits both headhunters and employers.
               </p>
-            </article>
+            </div>
+          </div>
+          <div class="column is-5" style="padding: 1.1rem;">
+            <div class="content">
+              <h3 class="has-text-weight-semibold has-text-white">
+                How and when will I get paid?
+              </h3>
+              <p>
+                To simplify payments for employers using First Pick, we act as a
+                master vendor. We invoice the employer on the candidate's start
+                date and our payment terms are 30 days. You'll get paid the day
+                we get paid. In the future, we plan to pay you on the
+                candidate's start date to benefit your cash flow.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="tile is-ancestor is-centered">
-          <div class="tile is-parent is-2">
-          </div>
-          <div class="tile is-parent is-2 is-hidden-touch">
-            <article class="tile is-child has-text-centered box" style="background: hsl(204, 86%, 53%);">
-              <p class="is-size-1 has-text-weight-bold has-text-white">
-                2
-              </p>
-            </article>
-          </div>
-          <div class="tile is-parent is-6">
-            <article class="tile is-child">
-              <p class="title">Submit your quote</p>
+        <!-- Questions 3-4 -->
+        <div class="columns">
+          <div class="column is-5 is-offset-1" style="padding: 1.1rem;">
+            <div class="content">
+              <h3 class="has-text-weight-semibold has-text-white">
+                How do rebates work?
+              </h3>
               <p>
-                Submit a quote setting out what you can offer the employer,
-                including the fixed fee you would charge to fill the role.
+                First, we both cry. Then we'll assess the damage. If the
+                candidate leaves between 0-30 days, the employer gets a 100%
+                rebate and you'll be required to return your full fee to us (if
+                it has been paid out). If the candidate leaves between 30-60
+                days, the employer gets a 50% rebate and you'll be required to
+                return half your fee to us. In the future, we plan to insure
+                headhunters against rebates (we know they're a cash flow
+                nightmare!).
               </p>
-            </article>
+            </div>
           </div>
-        </div>
-        <div class="tile is-ancestor is-centered">
-          <div class="tile is-parent is-2">
-          </div>
-          <div class="tile is-parent is-2 is-hidden-touch">
-            <article class="tile is-child box has-text-centered" style="background: hsl(217, 71%, 53%);">
-              <p class="is-size-1 has-text-weight-bold has-text-white">
-                3
-              </p>
-            </article>
-          </div>
-          <div class="tile is-parent is-6">
-            <article class="tile is-child">
-              <p class="title">Start the search</p>
+          <div class="column is-5" style="padding: 1.1rem;">
+            <div class="content">
+              <h3 class="has-text-weight-semibold has-text-white">
+                What if an employer doesn't pay my placement fee?
+              </h3>
               <p>
-                If the client selects your quote, you will receive their contact
-                details and can begin the search.
+                We have clear payment terms and a rigorous collections process.
+                If the payment has not been received within 30 days of the
+                candidate starting, we will notify you and keep you updated with
+                our progress. Ultimately, we do have the right to assign debt
+                collection over to you, but this is highly unlikely to happen.
+                In the future, we plan to insure headhunters against this
+                scenario so that you always get paid on time.
               </p>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-ancestor is-centered">
-          <div class="tile is-parent is-2">
-          </div>
-          <div class="tile is-parent is-2 is-hidden-touch">
-            <article class="tile is-child box has-text-centered" style="background: hsl(0, 0%, 21%);">
-              <p class="is-size-1 has-text-weight-bold has-text-white">
-                4
-              </p>
-            </article>
-          </div>
-          <div class="tile is-parent is-6">
-            <article class="tile is-child">
-              <p class="title">Get paid</p>
-              <p>
-                If you successfully fill the vacancy, the client pays the fixed
-                fee agreed in your quote.
-              </p>
-            </article>
+            </div>
           </div>
         </div>
       </div>
@@ -163,11 +259,11 @@
     <div class="hero-body">
       <div class="columns">
         <div class="column is-8 is-offset-2">
-          <p class="title is-1">
-            Our Mission
+          <p class="title is-2">
+            There's a better way for recruitment to work
           </p>
-          <p class="is-size-4">
-            We believe that the recruitment sector is unfairly vilified due to
+          <p class="is-size-5">
+            We believe the recruitment sector is unfairly vilified due to
             some bad actors in the profession. We're working to restore trust in
             the industry with your help.
           </p>
@@ -181,7 +277,7 @@
   <!-- Footer -->
   <footer class="footer" style="padding-bottom: 2rem;">
     <div class="container">
-      <nav class="breadcrumb is-centered is-medium has-bullet-separator">
+      <nav class="breadcrumb is-centered has-bullet-separator">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="employers.html">Employers</a></li>
@@ -206,7 +302,7 @@
         <p>
           Copyright &#169; 2018 First Pick
           <br/>First Pick Ltd. is registered and incorporated in England and
-          Wales, company registration number 11599916.
+          Wales 🇬🇧 Company registration number 11599916.
           <br/>75 Pilling Lane, Preesall, Poulton-Le-Fylde, Lancashire, FY6 0HB
         </p>
       </div>
