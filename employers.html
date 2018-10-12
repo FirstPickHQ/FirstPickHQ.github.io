@@ -10,19 +10,19 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="http://firstpick.io/"/>
   <!-- Stylesheets -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css"
   rel="stylesheet" type="text/css"/>
-  <script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="/javascripts/general.js"></script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div class="container">
       <!-- Left side of nav-bar -->
       <div class="navbar-brand">
-        <a class="navbar-item is-size-4 has-text-weight-semibold has-text-white" href="index.html">
+        <a class="navbar-item is-size-4 has-text-weight-semibold" href="index.html">
           First Pick
         </a>
         <!-- Navbar burger -->
@@ -48,21 +48,51 @@
       </div>
     </div>
   </nav>
-  <section class="hero has-text-centered is-link">
+
+  <!-- Title hero with picture -->
+  <section class="hero is-hidden-mobile">
+    <div class="hero-body" style="padding-top: 0rem;">
+      <div class="container">
+        <nav class="columns is-vcentered" style="background: hsl(171, 100%, 41%);">
+          <div class="column has-text-centered is-6" style="padding-left: 2.2rem; padding-right: 2.2rem;">
+            <p class="title is-1 has-text-white">
+              21st Century Recruitment PSL
+            </p>
+            <p class="subtitle is-4 has-text-white">
+              We match you with the best headhunter for each search
+            </p>
+            <a class="button is-dark is-medium has-text-weight-semibold">
+              Register Interest
+            </a>
+          </div>
+          <div class="column is-hidden-mobile is-paddingless">
+            <figure class="image is-1by1">
+              <img src="/images/employer_title.jpg"/>
+            </figure>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- Title hero without picture (mobile only) -->
+  <section class="hero has-text-centered is-primary is-hidden-tablet">
     <div class="hero-body">
       <div class="columns">
-        <div class="column is-8 is-offset-2">
+        <div class="column is-10 is-offset-1">
           <p class="title is-1">
             21st Century Recruitment PSL
           </p>
-          <p class="is-size-4">
-            We match you with the best headhunter for each search. They offer
-            high-end expertise on a low overhead basis.
+          <p class="subtitle is-3 has-text-white">
+            We match you with the best headhunter for each search
           </p>
+          <a class="button is-dark is-medium has-text-weight-semibold" style="margin-top: 1rem;">
+            Register Interest
+          </a>
         </div>
       </div>
     </div>
   </section>
+
   <!-- Find a great headhunter in 3 simple steps -->
   <section class="hero is-white">
     <div class="hero-body">
@@ -78,11 +108,11 @@
               <div class="column is-7">
                 <div class="content">
                   <h3 class="has-text-weight-bold has-text-black">
-                    Post your job
+                    📋 Post your job vacancy
                   </h3>
                   <p class="has-text-weight-semibold">
-                    Only the most suitable headhunters are invited to quote for your
-                    work
+                    Only the most suitable headhunters are invited to put
+                    forward proposals.
                   </p>
                   <ul>
                     <li>100% free</li>
@@ -105,10 +135,11 @@
               <div class="column is-7">
                 <div class="content">
                   <h3 class="has-text-weight-bold has-text-black">
-                    Compare quotes
+                    Hire the best headhunter
                   </h3>
                   <p class="has-text-weight-semibold">
-                    Get 3-4 tailored quotes within 24 hours
+                    Compare 3-4 tailored proposals and choose your favourite
+                    bid.
                   </p>
                   <ul>
                     <li>Transparent, fixed fee pricing</li>
