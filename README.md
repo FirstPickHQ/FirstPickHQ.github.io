@@ -4,4 +4,4 @@ First Pick matches employers with the world's best headhunters, making it easy t
 
 ## Copyright
 
-Code copyright 2018 First Pick Ltd.
+Code copyright 2019 First Pick Ltd.
