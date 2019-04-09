@@ -1,6 +1,8 @@
 # [First Pick](https://firstpick.io)
 
-First Pick matches employers with the world's best headhunters, making it easy to find the right recruiter for your search. Read more on how it works [here](https://firstpick.io/employers).
+First Pick is a full-service executive search firm that uses modern technology
+to give startups an experience that is fast, transparent, and price-predictable.
+Read more about it [here](https://firstpick.io/).
 
 ## Copyright
 
