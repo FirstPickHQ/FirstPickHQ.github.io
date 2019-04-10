@@ -6,7 +6,8 @@ function validateForm() {
   if (fullName != "" && orgName != "" && email != "") {
     if (email.includes("@") && email.includes(".")) {
       submitFormData();
-      document.getElementById("submitSuccess").style.display = "block";
+      document.getElementById("submit-to-google-sheet").style.display = "none";
+      document.getElementById("submitSuccessMessage").style.display = "block";
     }
   }
   if (email == "" || !email.includes("@") || !email.includes(".")) {
