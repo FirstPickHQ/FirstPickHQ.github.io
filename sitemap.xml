@@ -9,22 +9,17 @@
 
 <url>
   <loc>https://firstpick.io/</loc>
-  <lastmod>2018-10-16T10:54:01+00:00</lastmod>
+  <lastmod>2019-04-10T15:41:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://firstpick.io/employers</loc>
-  <lastmod>2018-10-16T10:54:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://firstpick.io/recruiters</loc>
-  <lastmod>2018-10-16T10:54:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://firstpick.io/about</loc>
-  <lastmod>2018-10-16T10:54:01+00:00</lastmod>
+  <lastmod>2019-04-10T15:41:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://firstpick.io/sign-up</loc>
+  <lastmod>2019-04-10T15:41:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
