@@ -10,3 +10,19 @@ document.addEventListener("DOMContentLoaded", function() {
       .catch(error => console.error("Error!", error.message));
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("keyup", function(event) {
+    var fullName = document.getElementById("fullName").value;
+    var orgName = document.getElementById("organisationName").value;
+    var email = document.getElementById("email").value;
+
+    if (fullName != "" && orgName != "" && email != "") {
+      if (email.includes("@") && email.includes(".")) {
+        document.getElementById("register").disabled = false;
+        return;
+      }
+    }
+    document.getElementById("register").disabled = true;
+  });
+});
