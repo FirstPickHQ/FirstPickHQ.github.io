@@ -6,7 +6,7 @@ function validateForm() {
   if (fullName != "" && orgName != "" && email != "") {
     if (email.includes("@") && email.includes(".")) {
       submitFormData();
-      //window.location.href = "https://firstpick.io/";
+      window.location.href = "https://firstpick.io/";
     }
   }
   if (email == "" || !email.includes("@") || !email.includes(".")) {
