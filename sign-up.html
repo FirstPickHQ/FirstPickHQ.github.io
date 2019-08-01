@@ -54,6 +54,10 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css"
+    />
     <!-- Scripts -->
     <script
       src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"
@@ -61,6 +65,7 @@
     ></script>
     <script src="/javascripts/general.js"></script>
     <script src="/javascripts/signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
     <!-- Intercom -->
     <script>
       window.intercomSettings = {
@@ -277,11 +282,18 @@
                 <!-- Card image -->
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img
-                      src="/images/ceo-cto-chief-executive-officer.jpeg"
-                      alt="Headshot of a CEO - Chief Executive Officer"
+                    <a
+                      href="/images/ceo-cto-chief-executive-officer.jpeg"
+                      class="progressive replace has-ratio"
                       style="border-radius: 15px 15px 0px 0px;"
-                    />
+                    >
+                      <img
+                        src="/images/ceo-cto-chief-executive-officer-placeholder.jpeg"
+                        class="preview"
+                        alt="Headshot of a CEO - Chief Executive Officer"
+                        style="border-radius: 15px 15px 0px 0px;"
+                      />
+                    </a>
                   </figure>
                 </div>
                 <!-- Rest of card -->
