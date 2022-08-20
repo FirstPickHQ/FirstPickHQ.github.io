@@ -6,4 +6,4 @@ Read more about it [here](https://firstpick.io/).
 
 ## Copyright
 
-Code copyright 2019 First Pick Ltd.
+Code copyright 2022 First Pick Ltd.
